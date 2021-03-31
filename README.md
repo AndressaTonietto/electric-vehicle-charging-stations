@@ -1,6 +1,6 @@
 # Charging Stations
 
-Simple application to find electric vehicle charging stations.
+Simple application to find electric vehicle charging stations in Berlin.
 
 ## Setup
 
