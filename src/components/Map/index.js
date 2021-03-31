@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import api from 'services/api';
 
-import Map from 'components/Map';
+import Map from 'components/Map/Map';
 import Marker from 'components/Marker';
 
 import Fallback from 'components/Fallback';
