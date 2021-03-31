@@ -8,9 +8,10 @@ import Fallback from 'components/Fallback';
 
 const MapContainer = () => {
   const [chargingStations, setChargingStations] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const getChargingStations = async () => {
+    setLoading(true);
     try {
       const res = await api.get(
         'poi/?output=json&countrycode=DE&maxresults=10&compact=true&verbose=false&latitude=52.520008&longitude=13.404954&distance=10&distanceunit=KM'
